@@ -1,0 +1,13 @@
+ .menu-item {
+   color: #222222 !important;
+   font-weight: bold;
+   border-radius: 50px;
+   transition: 0.5s ease;
+ }
+
+ .menu-item:hover {
+   cursor: -webkit-pointer;
+   cursor: grabbing;
+   color: #000000 !important;
+   border-radius: 20px;
+ }
