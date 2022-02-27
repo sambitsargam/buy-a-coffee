@@ -10,7 +10,7 @@ export default function Home() {
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
-  const contractAddress = "one1rwc6vwaj0j5kxzy7tc7z8e9dd9ewrgumsn6nx2";
+  const contractAddress = "0x1BB1A63BB27cA963089e5E3C23E4ad6972E1a39B";
 
   /**
    * Create a variable here that references the abi content!
@@ -129,7 +129,7 @@ export default function Home() {
           name ? name : "Anonymous",
           ethers.utils.parseEther("0.001"),
           {
-            gasLimit: 300000,
+            gasLimit: 10,
           }
         );
         console.log("Mining...", coffeeTxn.hash);
@@ -276,13 +276,13 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Buy Elyse a Coffee</title>
+        <title>Buy a Coffee</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold text-purple-600 mb-6">
-          Buy Elyse A Coffee
+          Buy  A Coffee For me
         </h1>
 
         {/*
@@ -314,7 +314,7 @@ export default function Home() {
                   className="block text-gray-700 text-sm font-bold mb-2"
                   htmlFor="message"
                 >
-                  Send Elyse a Message
+                  Send me a Message
                 </label>
 
                 <textarea
