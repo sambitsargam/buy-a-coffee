@@ -10,7 +10,7 @@ export default function Home() {
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
-  const contractAddress = "0x1BB1A63BB27cA963089e5E3C23E4ad6972E1a39B";
+  const contractAddress = "one1rwc6vwaj0j5kxzy7tc7z8e9dd9ewrgumsn6nx2";
 
   /**
    * Create a variable here that references the abi content!
@@ -341,7 +341,7 @@ export default function Home() {
         ) : (
           <div>
             <p className="text-2xl text-black-600 mb-6">
-              You can switch your wallet to Rinkeby Testnet Network to test this
+              You can switch your wallet to Harmony Testnet Network to test this
               application.
             </p>
             <button
