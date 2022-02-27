@@ -1,20 +1,20 @@
 {
-  "name": "vault-dapp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@celo-tools/use-contractkit": "^2.1.0",
-    "@celo/contractkit": "^1.1.0",
-    "@openzeppelin/contracts": "^4.0.0",
-    "dotenv": "^8.2.0",
-    "truffle": "^5.3.2",
-    "web3": "^1.6.1"
+    "ethers": "^5.5.2",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-toastify": "^8.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.0"
   }
 }
