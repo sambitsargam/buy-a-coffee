@@ -127,9 +127,9 @@ export default function Home() {
         const coffeeTxn = await coffeePortalContract.buyCoffee(
           message ? message : "Enjoy Your Coffee",
           name ? name : "Anonymous",
-          ethers.utils.parseEther("0.001"),
+          ethers.utils.parseEther("0.01"),
           {
-            gasLimit: 10,
+            gasLimit: 2100,
           }
         );
         console.log("Mining...", coffeeTxn.hash);
